@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr />
+    <h1>CLIENTE PREMIUM</h1>
+    <hr />
+    
+    <table>
+    <tbody>
+        <tr>
+            <td>
+                <p ALIGN="LEFT">
+                    <img src="compras.gif" width="80%" height="80%">   
+                </p>
+            </td>
+
+            <td>
+                <p><h3>INTRODUCE TUS DATOS PARA SER CLIENTE PREMIUM</h3>
+                </p>
+                <form action="/your_backend_url" method="post" enctype="application/x-www-form-urlencoded">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <label for="nombre">Nombre</label><br>
+                        <input type="text" id="nombre" name="nombre" value=""><br>
+                        <label for="apellidos">Apellidos</label><br>
+                        <input type="text" id="apellidos" name="apellidos" value=""><br>
+                        <label for="nacimiento">Fecha de nacimiento</label><br>
+                        <input type="date" id="nacimiento" name="nacimiento" value=""><br>
+                        <label for="direccion">Dirección</label><br>
+                        <input type="text" id="direccion" name="direccion" value=""><br>
+                        <label for="ciudad">Ciudad</label><br>
+                        <input type="text" id="ciudad" name="ciudad" value=""><br>
+                        <label for="cp">Código Postal</label><br>
+                        <input type="number" id="cp" name="cp" value=""><br>
+                        <label for="telf">Número de teléfono</label><br>
+                        <input type="number" id="telf" name="telf" value="34"><br>
+                        <label for="tidentification">Tipo de identificación:</label>
+                            <select name="select">
+                            <option value="value1">NIF</option>
+                            <option value="value2" selected="">DNI</option>
+                            <option value="value3">NIE</option>
+                            </select><br><br>
+                            <label for="identification">ID:</label>
+                            <input type="text" id="identification" name="identification"><br><br>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Datos bancarios:</legend>
+                        <label for="titular">Titular de la cuenta:</label><br>
+                        <input type="text" id="titular" name="titular" value=""><br>
+                        <label for="cuenta">Número de cuenta</label><br>
+                        <input type="number" id="cuenta" name="cuenta" value=""><br>
+                        <label for="caducidad">Fecha de caducidad</label><br>
+                        <input type="date" id="caducidad" name="caducidad" value=""><br>
+                        <label for="codigo">Código de seguridad</label><br>
+                        <input type="codigo" id="codigo" name="codigo" value=""><br><br>
+
+                        <p>
+
+                        <a href="./index.html">
+                            <button type="submit">Enviar y salir</button>
+                        </a>
+                        </p>
+                        
+
+                    </fieldset>
+                </form>
+            </td>
+
+        </tr>
+    </tbody>
+</table>
+
+
+    <div class="clearfix">
+        <div class="box" style="background-color:rgb(178, 200, 218)">
+            <p><a href="./index.html">Página principal</p>
+        </div>
+    
+        <div class="box" style="background-color:rgb(178, 200, 218)">
+            <p><a href="./tiendas.html">Nuestras marcas</p>
+        </div>
+            
+    </div>
+</body>
+</html> 
